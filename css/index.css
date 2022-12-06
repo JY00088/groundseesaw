@@ -1,0 +1,300 @@
+/*main*/
+@import url("./commos.css");
+main {
+  width: 100%;
+  margin-top: 210px;
+}
+main .mainbanner {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+}
+main .mainbanner div.arrowbtn {
+  width: 100%;
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  z-index: 999999;
+}
+main .mainbanner div.arrowbtn button {
+  background-color: transparent;
+  border: none;
+}
+main .mainbanner div.arrowbtn button:hover {
+  background-color: rgba(255, 255, 255, 0.458);
+}
+main .mainbanner .banner01 {
+  width: 33.3%;
+  height: 100%;
+  box-sizing: inherit;
+  top: 0px;
+  left: 0px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+  font-size: 60.32px;
+}
+main .mainbanner .banner01 img {
+  width: 100%;
+  height: 100%;
+}
+main .mainbanner .banner01 .textmain {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  bottom: 0px;
+  font-size: 60px;
+  letter-spacing: -2px;
+  text-align: left;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+  align-items: flex-start;
+}
+main .mainbanner .banner01 .textmain p {
+  padding: 5%;
+}
+main .mainbanner .banner01 .textmain p span:nth-of-type(2) {
+  display: block;
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+main .mainbanner .banner01 .textmain p .buttext {
+  display: block;
+  width: 220px;
+  height: 70px;
+  line-height: 45px;
+  border: 1px #fff solid;
+  background-color: transparent;
+  cursor: pointer;
+  color: #fff;
+  font-size: 30px;
+  padding-top: 13px;
+  text-align: center;
+}
+main .mainbanner .banner01 .textmain p span button img {
+  width: 44px;
+  padding: 0 10px 10px 40px;
+  float: right;
+}
+
+/*hover*/
+main .mainbanner .banner01:nth-child(1) div.textmain {
+  opacity: 0;
+}
+
+main .mainbanner .banner01:nth-child(1):hover div.textmain {
+  background-color: #3165cc;
+  opacity: 1;
+}
+
+main .mainbanner .banner01:nth-child(2) div.textmain {
+  opacity: 0;
+}
+
+main .mainbanner .banner01:nth-child(2):hover div.textmain {
+  background-color: #ec5439;
+  opacity: 1;
+}
+
+main .mainbanner .banner01:nth-child(3) div.textmain {
+  opacity: 0;
+}
+
+main .mainbanner .banner01:nth-child(3):hover div.textmain {
+  background-color: #98d0fb;
+  opacity: 1;
+}
+
+/*-----------------main-------------------*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  main {
+    width: 100%;
+    margin-top: 190px;
+  }
+  main .mainbanner {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    border: 1px solid red;
+    box-sizing: border-box;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+  }
+  main .mainbanner div.arrowbtn {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    z-index: 999999;
+  }
+  main .mainbanner div.arrowbtn button {
+    background-color: transparent;
+    border: none;
+  }
+  main .mainbanner div.arrowbtn button:hover {
+    background-color: rgba(255, 255, 255, 0.458);
+  }
+  main .mainbanner .banner01 {
+    width: 33.3%;
+    height: 100%;
+    box-sizing: inherit;
+    top: 0px;
+    left: 0px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    position: relative;
+    font-size: 60.32px;
+  }
+  main .mainbanner .banner01 img {
+    width: 100%;
+    height: 100%;
+  }
+  main .mainbanner .banner01 .textmain {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    bottom: 0px;
+    font-size: 50px;
+    letter-spacing: -2px;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+    align-items: flex-start;
+  }
+  main .mainbanner .banner01 .textmain p {
+    padding: 5%;
+  }
+  main .mainbanner .banner01 .textmain p span:nth-of-type(2) {
+    display: block;
+    padding-top: 40px;
+    padding-bottom: 130px;
+  }
+  main .mainbanner .banner01 .textmain p .buttext {
+    display: block;
+    width: 180px;
+    height: 60px;
+    line-height: 45px;
+    border: 1px #fff solid;
+    background-color: transparent;
+    cursor: pointer;
+    color: #fff;
+    font-size: 30px;
+    padding-top: 13px;
+    text-align: center;
+  }
+  main .mainbanner .banner01 .textmain p span button img {
+    width: 44px;
+    padding: 0 3px 10px 40px;
+    float: right;
+  }
+}
+@media (max-width: 767px) {
+  main {
+    width: 100%;
+    margin-top: 160px;
+  }
+  main .mainbanner {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+  }
+  main .mainbanner div.arrowbtn {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    z-index: 999999;
+  }
+  main .mainbanner div.arrowbtn button {
+    background-color: transparent;
+    border: none;
+  }
+  main .mainbanner div.arrowbtn button:hover {
+    background-color: rgba(255, 255, 255, 0.458);
+  }
+  main .mainbanner .banner01 {
+    width: 100%;
+    height: 100%;
+    box-sizing: inherit;
+    top: 0px;
+    left: 0px;
+    -o-object-fit: contain;
+       object-fit: contain;
+    position: relative;
+    font-size: 60.32px;
+  }
+  main .mainbanner .banner01 img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  main .mainbanner .banner01 .banner01 img:nth-of-type(2),
+main .mainbanner .banner01 .banner01 img:nth-of-type(3) {
+    display: none;
+  }
+  main .mainbanner .textmain {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    bottom: 0px;
+    font-size: 50px;
+    letter-spacing: -2px;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+    align-items: flex-start;
+  }
+  main .mainbanner .textmain p {
+    padding: 5%;
+  }
+  main .mainbanner .textmain p .buttext {
+    display: block;
+    width: 180px;
+    height: 60px;
+    line-height: 45px;
+    border: 1px #fff solid;
+    background-color: transparent;
+    cursor: pointer;
+    color: #fff;
+    font-size: 30px;
+    padding-top: 13px;
+    text-align: center;
+  }
+  main .mainbanner .textmain p span button img {
+    width: 44px;
+    padding: 0 3px 10px 40px;
+    float: right;
+  }
+}/*# sourceMappingURL=index.css.map */
