@@ -112,9 +112,11 @@ main .home .right .r .boxr h2 {
   width: 100%;
   font-size: 29px;
   font-weight: 500;
+  padding: 20px 0 0 0;
 }
 main .home .right .r .boxr p {
   font-weight: 700;
+  padding: 20px 0 0 0;
 }
 main .home .right .g {
   width: 100%;
@@ -140,6 +142,7 @@ main .home .right .g .boxg h2 span {
   font-weight: 700;
 }
 main .home .right .g .boxg p {
+  font-weight: 700;
   padding: 20px 0 0 0;
 }
 main .home .right .g .svganig {
@@ -227,6 +230,7 @@ main .home .right .b .boxb {
   margin-left: 30%;
   margin-bottom: -13%;
   box-sizing: border-box;
+  padding: 16px 20px 0 0;
 }
 main .home .right .b .boxb h2 {
   width: 100%;
@@ -234,12 +238,8 @@ main .home .right .b .boxb h2 {
   font-weight: 500;
   padding: 20px 0 0 0;
 }
-main .home .right .b .boxb h2 span {
-  font-weight: 700;
-}
 main .home .right .b .boxb p {
-  font-size: 10px;
-  font-weight: 400;
+  font-weight: 700;
   padding: 20px 0 0 0;
 }
 main .home .right .b div img {
@@ -260,6 +260,31 @@ main .home .right .d .svganib-line-left {
   width: 35%;
   height: 100%;
   border-left: 1px solid #0c2f7b;
+  -webkit-animation: lineleft 2s alternate forwards infinite;
+          animation: lineleft 2s alternate forwards infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+}
+main .home .right .d .svganib-line-left:nth-of-type(2) {
+  border-left: 1px solid #0c2f7b;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+@-webkit-keyframes lineleft {
+  0% {
+    left: 450px;
+  }
+  100% {
+    left: 903px;
+  }
+}
+@keyframes lineleft {
+  0% {
+    left: 450px;
+  }
+  100% {
+    left: 903px;
+  }
 }
 main .home .right .d .svganib-line-right {
   position: absolute;
@@ -268,6 +293,26 @@ main .home .right .d .svganib-line-right {
   width: 35%;
   height: 100%;
   border-right: 1px solid #0c2f7b;
+  -webkit-animation: lineright 2s alternate forwards infinite;
+          animation: lineright 2s alternate forwards infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+}
+@-webkit-keyframes lineright {
+  0% {
+    right: 0px;
+  }
+  100% {
+    right: 520px;
+  }
+}
+@keyframes lineright {
+  0% {
+    right: 0px;
+  }
+  100% {
+    right: 520px;
+  }
 }
 main .home .right .d .boxd {
   width: 70%;
@@ -275,6 +320,7 @@ main .home .right .d .boxd {
   justify-content: space-between;
   margin-left: 30%;
   box-sizing: border-box;
+  padding: 16px 20px 0 0;
 }
 main .home .right .d .boxd h2 {
   width: 100%;
@@ -282,10 +328,8 @@ main .home .right .d .boxd h2 {
   font-weight: 500;
   padding: 20px 0 0 0;
 }
-main .home .right .d .boxd h2 span {
-  font-weight: 700;
-}
 main .home .right .d .boxd p {
+  font-weight: 700;
   padding: 20px 0 0 0;
 }
 main .home .a {
@@ -299,6 +343,7 @@ main .home .a .boxa {
   justify-content: space-between;
   margin-left: 30%;
   box-sizing: border-box;
+  padding: 16px 20px 0 0;
 }
 main .home .a .boxa h2 {
   width: 100%;
@@ -306,10 +351,8 @@ main .home .a .boxa h2 {
   font-weight: 500;
   padding: 20px 0 0 0;
 }
-main .home .a .boxa h2 span {
-  font-weight: 700;
-}
 main .home .a .boxa p {
+  font-weight: 700;
   padding: 20px 0 0 0;
 }
 main .home .s {
@@ -324,6 +367,7 @@ main .home .s .boxs {
   justify-content: space-between;
   margin-left: 30%;
   box-sizing: border-box;
+  padding: 16px 20px 0 0;
 }
 main .home .s .boxs h2 {
   width: 100%;
@@ -331,10 +375,8 @@ main .home .s .boxs h2 {
   line-height: 1.1;
   font-weight: 400;
 }
-main .home .s .boxs h2 span {
-  font-weight: 700;
-}
 main .home .s .boxs p {
+  font-weight: 700;
   padding: 20px 0 0 0;
 }
 main .home .s div img {
@@ -352,6 +394,7 @@ main .home .vi .boxvi {
   justify-content: space-between;
   margin-left: 30%;
   box-sizing: border-box;
+  padding: 16px 20px 0 0;
 }
 main .home .vi .boxvi h2 {
   font-size: 29px;

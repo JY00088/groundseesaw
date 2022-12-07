@@ -148,6 +148,7 @@ main {
                         width: 100%;
                         font-size: 29px;
                         font-weight: 500;
+                        padding: 20px 0 0 0;
 
                         // color: #fff;
                         span {
@@ -159,6 +160,7 @@ main {
 
                     p {
                         font-weight: 700;
+                        padding: 20px 0 0 0;
                         // color: #fff;
 
 
@@ -195,6 +197,7 @@ main {
                     }
 
                     p {
+                        font-weight: 700;
                         padding: 20px 0 0 0;
                     }
                 }
@@ -274,6 +277,7 @@ main {
                     margin-left: 30%;
                     margin-bottom: -13%;
                     box-sizing: border-box;
+                    padding: 16px 20px 0 0;
                     // border: 1px solid forestgreen;
 
                     h2 {
@@ -283,14 +287,13 @@ main {
                         padding: 20px 0 0 0;
 
                         span {
-                            font-weight: 700;
+                            // font-weight: 700;
 
                         }
                     }
 
                     p {
-                        font-size: 10px;
-                        font-weight: 400;
+                        font-weight: 700;
                         padding: 20px 0 0 0;
                     }
 
@@ -404,6 +407,17 @@ main {
                         width: 35%;
                         height: 100%;
                         border-left: 1px solid #0c2f7b;
+                        animation: lineleft 2s alternate forwards infinite ;
+                        animation-direction : normal;
+                    }
+                    .svganib-line-left:nth-of-type(2){
+                        border-left: 1px solid #0c2f7b;
+                        animation-delay: 0.5s;
+                    }
+
+                    @keyframes lineleft{
+                        0% {left:450px;}
+                        100% {left:903px;}
                     }
                     .svganib-line-right{
                         position: absolute;
@@ -412,6 +426,13 @@ main {
                         width: 35%;
                         height: 100%;
                         border-right: 1px solid #0c2f7b;
+                        animation: lineright 2s alternate forwards infinite ;
+                        animation-direction : normal;
+                    }
+
+                    @keyframes lineright{
+                        0% {right:0px;}
+                        100% {right:520px;}
                     }
                 
                 .boxd {
@@ -420,6 +441,7 @@ main {
                     justify-content: space-between;
                     margin-left: 30%;
                     box-sizing: border-box;
+                    padding: 16px 20px 0 0;
                     // border: 1px solid forestgreen;
 
                     h2 {
@@ -429,11 +451,11 @@ main {
                         padding: 20px 0 0 0;
 
                         span {
-                            font-weight: 700;
+                            
                         }
                     }
 
-                    p {
+                    p { font-weight: 700;
                         padding: 20px 0 0 0;
                     }
                     
@@ -489,6 +511,7 @@ main {
                     justify-content: space-between;
                     margin-left: 30%;
                     box-sizing: border-box;
+                    padding: 16px 20px 0 0;
                     // border: 1px solid forestgreen;
 
                     h2 {
@@ -498,11 +521,11 @@ main {
                         padding: 20px 0 0 0;
 
                         span {
-                            font-weight: 700;
+                            
                         }
                     }
 
-                    p {
+                    p { font-weight: 700;
                         padding: 20px 0 0 0;
                     }
 
@@ -526,6 +549,7 @@ main {
                     justify-content: space-between;
                     margin-left: 30%;
                     box-sizing: border-box;
+                    padding: 16px 20px 0 0;
                     // border: 1px solid forestgreen;
 
                     h2 {
@@ -535,11 +559,11 @@ main {
                         font-weight: 400;
 
                         span {
-                            font-weight: 700;
+                            
                         }
                     }
 
-                    p {
+                    p { font-weight: 700;
                         padding: 20px 0 0 0;
                     }
                 }
@@ -565,6 +589,7 @@ main {
                     justify-content: space-between;
                     margin-left: 30%;
                     box-sizing: border-box;
+                    padding: 16px 20px 0 0;
                     // border: 1px solid forestgreen;
 
 
