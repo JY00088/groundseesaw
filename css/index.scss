@@ -74,11 +74,8 @@ main {
         height: 100%;
         align-items: flex-start;
 
-
-        p {
-          padding: 5%;
-
-
+        .banner-text01{
+          opacity: 0;
           span:nth-of-type(2) {
             display: block;
             padding-top: 40px;
@@ -106,46 +103,57 @@ main {
             float: right;
           }
         }
+        
+        p {
+          padding: 5%;
+        }
 
+      }
+      &:nth-of-type(1):hover .textmain .banner-text01  {
+        background-color: #3165cc;
+        opacity: 1 !important;
       }
 
     }
+    
 
 
   }
 }
 
 /*hover*/
-main .mainbanner .banner01:nth-child(1) div.textmain {
-  opacity: 0;
 
-}
 
-main .mainbanner .banner01:nth-child(1):hover div.textmain {
-  background-color: #3165cc;
-  opacity: 1;
+// main .mainbanner .banner01:nth-child(1) div.textmain {
+//   opacity: 0;
 
-}
+// }
 
-main .mainbanner .banner01:nth-child(2) div.textmain {
-  opacity: 0;
-}
+// main .mainbanner .banner01:nth-child(1):hover div.textmain {
+//   background-color: #3165cc;
+//   opacity: 1;
 
-main .mainbanner .banner01:nth-child(2):hover div.textmain {
-  background-color: #ec5439;
-  opacity: 1;
+// }
 
-}
+// main .mainbanner .banner01:nth-child(2) div.textmain {
+//   opacity: 0;
+// }
 
-main .mainbanner .banner01:nth-child(3) div.textmain {
-  opacity: 0;
-}
+// main .mainbanner .banner01:nth-child(2):hover div.textmain {
+//   background-color: #ec5439;
+//   opacity: 1;
 
-main .mainbanner .banner01:nth-child(3):hover div.textmain {
-  background-color: #98d0fb;
-  opacity: 1;
+// }
 
-}
+// main .mainbanner .banner01:nth-child(3) div.textmain {
+//   opacity: 0;
+// }
+
+// main .mainbanner .banner01:nth-child(3):hover div.textmain {
+//   background-color: #98d0fb;
+//   opacity: 1;
+
+// }
 
 main .mainbanner .banner01:hover .textmain .banner-text01 {
 
@@ -155,6 +163,7 @@ main .mainbanner .banner01:hover .textmain .banner-text01 {
   // flex-shrink: 0;
   // backface-visibility: hidden;
 }
+
 
 /*-----------------main-------------------*/
 @media (min-width:768px)and (max-width:1024px) {

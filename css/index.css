@@ -61,15 +61,15 @@ main .mainbanner .banner01 .textmain {
   height: 100%;
   align-items: flex-start;
 }
-main .mainbanner .banner01 .textmain p {
-  padding: 5%;
+main .mainbanner .banner01 .textmain .banner-text01 {
+  opacity: 0;
 }
-main .mainbanner .banner01 .textmain p span:nth-of-type(2) {
+main .mainbanner .banner01 .textmain .banner-text01 span:nth-of-type(2) {
   display: block;
   padding-top: 40px;
   padding-bottom: 70px;
 }
-main .mainbanner .banner01 .textmain p .buttext {
+main .mainbanner .banner01 .textmain .banner-text01 .buttext {
   display: block;
   width: 220px;
   height: 70px;
@@ -82,40 +82,20 @@ main .mainbanner .banner01 .textmain p .buttext {
   padding-top: 13px;
   text-align: center;
 }
-main .mainbanner .banner01 .textmain p span button img {
+main .mainbanner .banner01 .textmain .banner-text01 span button img {
   width: 44px;
   padding: 0 10px 10px 40px;
   float: right;
 }
+main .mainbanner .banner01 .textmain p {
+  padding: 5%;
+}
+main .mainbanner .banner01:nth-of-type(1):hover .textmain .banner-text01 {
+  background-color: #3165cc;
+  opacity: 1 !important;
+}
 
 /*hover*/
-main .mainbanner .banner01:nth-child(1) div.textmain {
-  opacity: 0;
-}
-
-main .mainbanner .banner01:nth-child(1):hover div.textmain {
-  background-color: #3165cc;
-  opacity: 1;
-}
-
-main .mainbanner .banner01:nth-child(2) div.textmain {
-  opacity: 0;
-}
-
-main .mainbanner .banner01:nth-child(2):hover div.textmain {
-  background-color: #ec5439;
-  opacity: 1;
-}
-
-main .mainbanner .banner01:nth-child(3) div.textmain {
-  opacity: 0;
-}
-
-main .mainbanner .banner01:nth-child(3):hover div.textmain {
-  background-color: #98d0fb;
-  opacity: 1;
-}
-
 /*-----------------main-------------------*/
 @media (min-width: 768px) and (max-width: 1024px) {
   main {
